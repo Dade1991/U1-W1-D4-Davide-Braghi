@@ -64,6 +64,21 @@ a {
   color: lightskyblue;
 }
 
+#author-info i {
+  padding: 0 0.5em;
+  font-size: 1em;
+}
+
+#header-info-tab-1 i {
+  padding: 0 0.5em;
+  font-size: 1em;
+}
+
+.news-and-related-articles i {
+  padding: 0 0.5em;
+  font-size: 1em;
+}
+
 #header-info {
   box-sizing: border-box;
   width: 500px;
@@ -133,8 +148,8 @@ a {
   margin-left: auto;
   margin-right: auto;
   padding: 10px;
-  margin-top: 25px;
-  margin-bottom: 25px;
+  margin-top: 15px;
+  margin-bottom: 15px;
   background-color: rgb(255, 255, 255);
 }
 
@@ -157,8 +172,8 @@ a {
   margin-left: auto;
   margin-right: auto;
   padding: 10px;
-  margin-top: 25px;
-  margin-bottom: 25px;
+  margin-top: 15px;
+  margin-bottom: 15px;
   background-color: rgb(255, 255, 255);
 }
 #main-section-2 div {
@@ -187,7 +202,7 @@ td {
 }
 
 th {
-  background-color: lightskyblue;
+  background-color: rgb(73, 182, 250);
   color: white;
   height: 20px;
 }
@@ -207,20 +222,19 @@ tr {
   margin-left: auto;
   margin-right: auto;
   padding: 10px;
-  margin-top: 25px;
-  margin-bottom: 25px;
+  margin-top: 15px;
+  margin-bottom: 15px;
   background-color: rgb(255, 255, 255);
 }
 
 #video-content {
-  margin-top: 25px;
   margin-bottom: 25px;
   display: flex;
   justify-content: center;
 }
 
 iframe {
-  border-radius: 20px;
+  border-radius: 25px;
 }
 
 #main-section-4 {
@@ -229,8 +243,8 @@ iframe {
   margin-left: auto;
   margin-right: auto;
   padding: 10px;
-  margin-top: 25px;
-  margin-bottom: 25px;
+  margin-top: 15px;
+  margin-bottom: 15px;
   background-color: rgb(255, 255, 255);
 }
 
@@ -245,10 +259,10 @@ iframe {
 }
 
 button {
-  background-color: lightskyblue;
+  background-color: rgb(73, 182, 250);
   color: white;
   border-style: none;
-  border-radius: 5px;
+  border-radius: 2px;
 }
 
 #copyrights-info {
@@ -274,4 +288,8 @@ button {
 #contact-info {
   font-weight: 500;
   color: rgba(239, 50, 245, 0.884);
+}
+
+.pub-date {
+  text-align: end;
 }
