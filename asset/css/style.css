@@ -1,0 +1,277 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+body {
+  width: 100%;
+  font-family: "Poppins", sans-serif;
+  margin: 10px;
+  margin-left: 25px;
+  margin-right: 25px;
+  background-image: url(../img/sfondo.png);
+  background-repeat: none;
+  background-position: center;
+  background-size: cover;
+}
+
+p {
+  width: 100%;
+  margin: 1em 0;
+}
+
+h1 {
+  margin: 0;
+  margin-top: 0.7em;
+  margin-bottom: 0.7em;
+  font-weight: 600;
+  font-size: 2.5em;
+}
+
+h2 {
+  margin: 1em 0;
+}
+
+h3 {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 1.5em;
+  font-weight: 500;
+}
+
+ul,
+ol,
+li {
+  margin: 0;
+  padding-left: 0.5em;
+}
+
+ul {
+  list-style-type: disc;
+  padding-left: 2em;
+}
+
+ol {
+  list-style-type: decimal;
+  padding-left: 2em;
+}
+
+b {
+  font-weight: 600;
+  color: rgba(174, 50, 245, 0.884);
+}
+
+a {
+  color: lightskyblue;
+}
+
+#header-info {
+  box-sizing: border-box;
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 2em 7em;
+  background: #020024;
+  background: linear-gradient(
+    0deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 9, 121, 1) 0%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  color: white;
+  box-shadow: 3px 3px 10px 3px rgb(0, 0, 0);
+}
+
+#header-info img {
+  width: 100%;
+}
+
+#header-info-logo {
+  display: flex;
+  justify-content: center;
+}
+
+#header-info-title {
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+#header-info-tab {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  line-height: 1.5em;
+}
+
+#header-info-tab-1 {
+  padding-left: 0;
+  list-style: none;
+  text-align: center;
+}
+
+#header-info-tab-1 li a {
+  color: white;
+}
+
+#main-section {
+  box-sizing: border-box;
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 3px 3px 10px 3px rgb(0, 0, 0);
+}
+
+#main-section-1 {
+  box-sizing: border-box;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  background-color: rgb(255, 255, 255);
+}
+
+#main-section-1 div {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+#author-info {
+  color: rgb(196, 200, 208);
+}
+
+/* .button-info {
+  border: black 1px;
+} */
+
+#main-section-2 {
+  box-sizing: border-box;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  background-color: rgb(255, 255, 255);
+}
+#main-section-2 div {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+#CSS-chart {
+  width: 100%;
+}
+
+caption {
+  font-style: italic;
+  font-size: 1.2em;
+  font-weight: 500;
+}
+
+#CSS-chart-table,
+th,
+td {
+  text-align: center;
+  width: 70%;
+  margin: 50px auto;
+  border-bottom: rgba(0, 0, 0, 0.103) solid 1px;
+  font-size: 0.8em;
+}
+
+th {
+  background-color: lightskyblue;
+  color: white;
+  height: 20px;
+}
+
+tr:nth-child(odd) {
+  background-color: #e7e7e7;
+}
+
+tr {
+  height: 20px;
+  text-align: center;
+}
+
+#main-section-3 {
+  box-sizing: border-box;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  background-color: rgb(255, 255, 255);
+}
+
+#video-content {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  display: flex;
+  justify-content: center;
+}
+
+iframe {
+  border-radius: 20px;
+}
+
+#main-section-4 {
+  box-sizing: border-box;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  background-color: rgb(255, 255, 255);
+}
+
+#main-section-4 div {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+.news-and-related-articles {
+  background-color: #e7e7e7;
+  padding: 1em 1em;
+}
+
+button {
+  background-color: lightskyblue;
+  color: white;
+  border-style: none;
+  border-radius: 5px;
+}
+
+#copyrights-info {
+  text-align: center;
+  box-sizing: border-box;
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  background: #020024;
+  background: linear-gradient(
+    0deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 9, 121, 1) 0%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  color: white;
+  box-shadow: 3px 3px 10px 3px rgb(0, 0, 0);
+}
+
+#contact-info {
+  font-weight: 500;
+  color: rgba(239, 50, 245, 0.884);
+}
